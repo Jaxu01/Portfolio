@@ -1,6 +1,8 @@
 :root {
-    --light-navy: #112240;
     --navy: #0a192f;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --light-navy: #112240;
+    --lightest-navy: #233554;
     --lightest-slate: #ccd6f6;
     --light-slate: #a8b2d1;
     --slate: #8892b0;
@@ -10,9 +12,18 @@
 }
 
 * {
-    font-family: 'Fira sans', sans-serif;
-    background-color: var(--navy);
+    font-family: monospace, sans-serif;
     color: var(--lightest-slate);
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--navy);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #intro-section {
@@ -45,6 +56,16 @@ header .intro {
 header h2 {
     color: var(--slate);
     font-size: 48px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.headline {
+    width: 100%;
+    margin: 50px;
+    font-size: 32px;
 }
 
 .description {
@@ -98,22 +119,63 @@ nav {
     right: 0;
 }
 
+nav a:hover span {
+    transition: var(--transition);
+    color: var(--green);
+}
+
 a {
-    font-size: 16px;
     text-decoration: none;
     color: var(--green);
     cursor: pointer;
     padding: 10px;
 }
 
-span {
-    padding-bottom: 10px;
-    padding-left: 5px;
+ul {
+    list-style: none;
 }
 
-span:hover {
+.project-content {
+    grid-area: 1 / 6 / -1 / -1;
+}
+
+.project-title {
+    text-align: right;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.contact-form {
+    color: inherit;
     transition: var(--transition);
+}
+
+.contact-form:hover {
     color: var(--green);
+}
+
+.project-description {
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: 18px;
+}
+
+.project-image {
+    grid-area: 1 / 1 / -1 / 7;
+}
+
+nav span {
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 .anchor-button {
@@ -160,4 +222,30 @@ span:hover {
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+}
+
+.headline::after {
+    content: "";
+    display: inline-flex;
+    width: 200px;
+    height: 1px;
+    background-color: var(--lightest-navy);
+}
+
+h3 .title-03 {
+    padding: 0 10px;
+}
+
+.number {
+    color: var(--green);
+}
+
+img {
+    max-width: 100%;
+    width: 580px;
 }
