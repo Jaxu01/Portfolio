@@ -6,6 +6,7 @@
     --lightest-slate: #ccd6f6;
     --light-slate: #a8b2d1;
     --slate: #8892b0;
+    --dark-slate: #495670;
     --green: #64ffda;
     --green-tint: rgba(100,255,218,0.1);
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -60,6 +61,10 @@ header h2 {
 
 h3 {
     font-size: 28px;
+}
+
+.number {
+    font-size: 25px;
 }
 
 .headline {
@@ -129,18 +134,15 @@ a {
     color: var(--green);
     cursor: pointer;
     padding: 10px;
+    transition: var(--transition);
+}
+
+a svg:hover {
+    stroke: var(--green);
 }
 
 ul {
     list-style: none;
-}
-
-.project-content {
-    grid-area: 1 / 6 / -1 / -1;
-}
-
-.project-title {
-    text-align: right;
 }
 
 .project {
@@ -169,8 +171,25 @@ ul {
     font-size: 18px;
 }
 
-.project-image {
+.project-image { 
+    grid-area: 1 / 6 / -1 / -1;
+}
+
+.project-content {
     grid-area: 1 / 1 / -1 / 7;
+}
+
+.project-align-right .project-image {
+    grid-area: 1 / 1 / -1 / 7;
+}
+
+.project-align-right .project-content {
+    grid-area: 1 / 6 / -1 / -1;
+    text-align: right;
+}
+
+.project-align-right .project-links {
+    justify-content: flex-end;
 }
 
 nav span {
@@ -246,6 +265,54 @@ h3 .title-03 {
 }
 
 img {
-    max-width: 100%;
     width: 580px;
+    height: 290px;
+}
+
+.project-links {
+    margin-left: 0px;
+    margin-right: -10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    margin-left: -10px;
+    color: var(--lightest-slate);
+}
+
+.github-project {
+    width: 20px;
+    height: 20px;
+    transition: var(--transition);
+}
+
+.external-link-project {
+    width: 22px;
+    height: 22px;
+    transition: var(--transition);
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dark-slate);
+    border: 3px solid var(--navy);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--navy);
+}
+
+::selection {
+    background-color: var(--lightest-navy);
+    color: var(--lightest-slate);
 }
