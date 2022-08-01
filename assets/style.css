@@ -78,6 +78,39 @@ h3 {
     font-size: 24px;
 }
 
+.project-tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.project-tech-list-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    margin: 25px 0px 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.project-tech-list-right li {
+    margin: 0px 0px 5px 20px;
+    color: var(--light-slate);
+    white-space: nowrap;
+}
+
+.project-tech-list li {
+    margin: 0px 20px 5px 0px;
+    color: var(--light-slate);
+    white-space: nowrap;
+}
+
 .media-container,
 .email-container {
     position: fixed;
@@ -150,12 +183,12 @@ ul {
     grid-template-columns: repeat(12, 1fr);
 }
 
-.contact-form {
+.image-github {
     color: inherit;
     transition: var(--transition);
 }
 
-.contact-form:hover {
+.image-github:hover {
     color: var(--green);
 }
 
