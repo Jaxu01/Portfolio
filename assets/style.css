@@ -78,6 +78,17 @@ h3 {
     font-size: 24px;
 }
 
+.about {
+    padding: 100px 0px;
+}
+
+.about-me {
+    margin: 0px 0px 15px;
+    padding: 0px 0px 0px 40px;
+    color: var(--slate);
+    font-size: 20px;
+}
+
 .project-tech-list {
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +296,7 @@ nav span {
     content: "";
     display: inline-flex;
     width: 200px;
+    margin-left: 10px;
     height: 1px;
     background-color: var(--lightest-navy);
 }
