@@ -63,6 +63,18 @@ h3 {
     font-size: 28px;
 }
 
+.inner {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+}
+
+.profile {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
 .number {
     font-size: 25px;
 }
@@ -309,7 +321,7 @@ h3 .title-03 {
     color: var(--green);
 }
 
-img {
+.thumbnail {
     width: 580px;
     height: 290px;
 }
