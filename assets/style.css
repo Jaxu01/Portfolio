@@ -19,6 +19,7 @@
 }
 
 body {
+    margin: 0px;
     background-color: var(--navy);
 }
 
@@ -73,6 +74,12 @@ h3 {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    margin-top: -30px;
 }
 
 .number {
@@ -219,7 +226,6 @@ ul {
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     transition: var(--transition);
     position: relative;
-    z-index: 2;
     padding: 25px;
     border-radius: var(--border-radius);
     background-color: var(--light-navy);
@@ -323,7 +329,6 @@ h3 .title-03 {
 
 .thumbnail {
     width: 580px;
-    height: 290px;
 }
 
 .project-links {
@@ -372,4 +377,59 @@ h3 .title-03 {
 ::selection {
     background-color: var(--lightest-navy);
     color: var(--lightest-slate);
+}
+
+@media (max-width: 480px) {
+
+    .page-title {
+        font-size: 32px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header .intro {
+        font-size: 12px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%
+    }
+
+    .thumbnail {
+        max-width: 100%;
+    }
+
+    .headline {
+        margin: 0px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .about-me {
+        margin: 0px;
+        padding: 0px 10px;
+    }
+
+    .project-list {
+        margin: 0px;
+        padding: 10px;
+    }
 }
