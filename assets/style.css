@@ -381,6 +381,56 @@ h3 .title-03 {
 
 @media (max-width: 480px) {
 
+    .navigation-bar {
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        align-items: right;
+        padding: 15px 5px;
+        margin-left: 300px;
+    }
+    .toggle{
+        order:1;
+    }
+    .item.button{
+        order:2;
+    }
+    .item{
+        width: 100%;
+        text-align: center;
+        order: 3;
+        display:none;
+    }
+    .item.active{
+        display:block;
+    }
+    .toggle{
+        cursor:pointer;
+    }
+    .bars{
+        background:#999;
+        display: inline-block;
+        height: 2px;
+        position: relative;
+        width: 18px;
+    }
+    .bars::before,.bars::after{
+        background:#999;
+        content:"";
+        display: inline-block;
+        height: 2px;
+        position: absolute;
+        width: 18px;
+    }
+    .bars::before{
+        top: 5px;
+    }
+    .bars::after{
+        top: -5px;
+    }
+
     .page-title {
         font-size: 32px;
     }
@@ -432,4 +482,5 @@ h3 .title-03 {
         margin: 0px;
         padding: 10px;
     }
+    
 }
