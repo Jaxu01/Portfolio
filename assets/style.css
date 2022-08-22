@@ -385,38 +385,38 @@ h3 .title-03 {
         display: none;
     }
 
-    .menu{
+    .menu {
         display: flex;
         align-items: right;
         padding: 15px 5px;
         margin-left: 300px;
     }
-    .toggle{
+    .toggle {
         order:1;
     }
-    .item.button{
+    .item.button {
         order:2;
     }
-    .item{
+    .item {
         width: 100%;
         text-align: center;
         order: 3;
         display:none;
     }
-    .item.active{
+    .item.active {
         display:block;
     }
-    .toggle{
+    .toggle {
         cursor:pointer;
     }
-    .bars{
+    .bars {
         background:#999;
         display: inline-block;
         height: 2px;
         position: relative;
         width: 18px;
     }
-    .bars::before,.bars::after{
+    .bars::before,.bars::after {
         background:#999;
         content:"";
         display: inline-block;
@@ -424,10 +424,10 @@ h3 .title-03 {
         position: absolute;
         width: 18px;
     }
-    .bars::before{
+    .bars::before {
         top: 5px;
     }
-    .bars::after{
+    .bars::after {
         top: -5px;
     }
 
@@ -482,5 +482,4 @@ h3 .title-03 {
         margin: 0px;
         padding: 10px;
     }
-    
 }
