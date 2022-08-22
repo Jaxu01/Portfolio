@@ -7,15 +7,20 @@
 </head>
 <body>
     <nav class="navigation-bar">
-        <a href="/#about">01.<span>About</span></a>
-        <a href="/#experience">02.<span>Experience</span></a>
-        <a href="/#work">03.<span>Work</span></a>
-        <a href="/#contact">04.<span>Contact</span></a>
-        <a class="anchor-button" href="/#resume">Resume</a>
+        <div class="menu-links">
+            <a href="/#about">01.<span>About</span></a>
+            <a href="/#experience">02.<span>Experience</span></a>
+            <a href="/#work">03.<span>Work</span></a>
+            <a href="/#contact">04.<span>Contact</span></a>
+            <a class="anchor-button" href="/#resume">Resume</a>
+        </div>
+        <button onclick="this.classList.toggle('active'); console.log(this); this.previousElementSibling.classList.toggle('open')" class="menu-button">
+            <div class="menu-icon">
+                <div class="menu-icon-inner">
+                </div>
+            </div>
+        </button>
     </nav>
-    <ul class="menu">
-        <li class="toggle"><span class="bars"></span></li>
-    </ul>
     <main>
         <section id="intro">
             <header>
