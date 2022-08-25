@@ -528,4 +528,12 @@ h3 .title-03 {
         margin: 0px;
         padding: 10px;
     }
+
+    .media-container {
+        display: none;
+    }
+
+    .email-container {
+        display: none;
+    }
 }
