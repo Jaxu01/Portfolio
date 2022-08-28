@@ -10,9 +10,9 @@
         <div class="menu">
             <div class="blur" onclick="this.parentNode.nextElementSibling.click()"></div>
             <div class="menu-links">
-                <a href="/#about">01.<span>About</span></a>
+                <a href="/#about" onclick="scrollOne()">01.<span>About</span></a>
                 <a href="/#experience">02.<span>Experience</span></a>
-                <a href="/#work">03.<span>Work</span></a>
+                <a href="/#work" onclick="scrollTwo()">03.<span>Work</span></a>
                 <a href="/#contact">04.<span>Contact</span></a>
                 <a class="anchor-button" href="/#resume">Resume</a>
             </div>
@@ -181,3 +181,11 @@
         <a href="mailto:jakubpiwtorak@gmail.com" class="email">jakubpiwtorak@gmail.com</a>
     </div>
 </body>
+<script>
+    function scrollOne() {
+        window.scrollTo(0, 500)
+}
+    function scrollTwo() {
+        window.scrollTo(0, 1100)
+    }
+</script>
