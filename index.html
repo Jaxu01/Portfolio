@@ -8,16 +8,16 @@
 <body>
     <nav class="navigation-bar">
         <div class="menu">
-            <div class="blur" onclick="this.parentNode.nextElementSibling.click()"></div>
+            <div class="blur"></div>
             <div class="menu-links">
-                <a href="/#about" onclick="scrollOne()">01.<span>About</span></a>
-                <a href="/#experience">02.<span>Experience</span></a>
-                <a href="/#work" onclick="scrollTwo()">03.<span>Work</span></a>
-                <a href="/#contact">04.<span>Contact</span></a>
-                <a class="anchor-button" href="/#resume">Resume</a>
+                <a href="#about">01.<span>About</span></a>
+                <a href="#experience">02.<span>Experience</span></a>
+                <a href="#projects">03.<span>Projects</span></a>
+                <a href="#contact">04.<span>Contact</span></a>
+                <a class="anchor-button" target="_blank" href="Minimalist-CV-Resume-2.pdf">See my CV</a>
             </div>
         </div>
-        <button onclick="this.classList.toggle('active'); this.previousElementSibling.classList.toggle('open')" class="menu-button">
+        <button class="menu-button">
             <div class="menu-icon">
                 <div class="menu-icon-inner">
                 </div>
@@ -33,7 +33,7 @@
                 <p class="description">I try to learn as much as possible and always want to give my best. Below are some of the projects I already worked on, take a look!</p>
             </header>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <h2 class="headline"><span class="number">01.&nbsp;</span><span class="title-03">About Me</span></h2>
             <div class="inner">
                 <p class="about-me">Hello! My name is Jakub Piwtorak, I was born in Poland, where I currently live and I started to learn code since March 2022. I'm an open-minded person that is
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2 class="headline"><span class="number">03.&nbsp;</span><span class="title-03">Some Things I've built</span></h2>
             <ul class="project-list">
                 <li class="project">
@@ -180,12 +180,5 @@
     <div class="email-container">   
         <a href="mailto:jakubpiwtorak@gmail.com" class="email">jakubpiwtorak@gmail.com</a>
     </div>
+    <script src="assets/script.js"></script>
 </body>
-<script>
-    function scrollOne() {
-        window.scrollTo(0, 500)
-}
-    function scrollTwo() {
-        window.scrollTo(0, 1100)
-    }
-</script>
