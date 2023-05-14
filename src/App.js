@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
 function App() {
   return (
@@ -183,7 +182,7 @@ function App() {
         <a href="mailto:jakubpiwtorak@gmail.com" className="email">jakubpiwtorak@gmail.com</a>
     </div>
   </>
-  );
+  )
 }
 
-export default App;
+export default App
