@@ -36,7 +36,7 @@ function App() {
                 <p className="about-me">Hello! My name is Jakub Piwtorak, I was born in Poland, where I currently live and I started to learn code since March 2022. I'm an open-minded person that is
                 ready to learn new things to achieve his goals. Some of my interests include video games, football, history, politics and of course coding.</p>
                 <div className="profile">
-                    <img alt="Picture of Me" src="public/Myself.jpg" loading="lazy"/>
+                    <img alt="Picture of Me" src="images/Myself.jpg" loading="lazy"/>
                 </div>
             </div>
         </section>
@@ -44,7 +44,7 @@ function App() {
             <h2 className="headline"><span className="number">03.&nbsp;</span><span className="title-03">Some Things I've built</span></h2>
             <ul className="project-list">
                 <li className="project">
-                    <div className="project-image"><img className="thumbnail" src="public/ChatApp.PNG"/></div>
+                    <div className="project-image"><img className="thumbnail" src="images/ChatApp.PNG"/></div>
                     <div className="project-content">
                         <div className="project-details">
                             <h3 className="project-title">
@@ -69,7 +69,7 @@ function App() {
                     </div>
                 </li>
                 <li className="project project-align-right">
-                <div className="project-image"><img className="thumbnail" src="public/FootballApp.PNG"/></div>
+                <div className="project-image"><img className="thumbnail" src="images/FootballApp.PNG"/></div>
                     <div className="project-content">
                         <div className="project-details">
                             <h3 className="project-title">
@@ -95,7 +95,7 @@ function App() {
                     </div>
                 </li>
                 <li className="project">
-                    <div className="project-image"><img className="thumbnail" src="public/WeatherApp.PNG"/></div>
+                    <div className="project-image"><img className="thumbnail" src="images/WeatherApp.PNG"/></div>
                     <div className="project-content">
                         <div className="project-details">
                             <h3 className="project-title">
@@ -120,7 +120,7 @@ function App() {
                     </div>
                 </li>
                 <li className="project project-align-right">
-                    <div className="project-image"><img className="thumbnail" src="public/ToDoList.PNG"/></div>
+                    <div className="project-image"><img className="thumbnail" src="images/ToDoList.PNG"/></div>
                     <div className="project-content">
                         <div className="project-details">
                             <h3 className="project-title">
@@ -144,7 +144,7 @@ function App() {
                     </div>
                 </li>
                 <li className="project">
-                    <div className="project-image"><img className="thumbnail" src="public/ContactForm.PNG"/></div>
+                    <div className="project-image"><img className="thumbnail" src="images/ContactForm.PNG"/></div>
                     <div className="project-content">
                         <div className="project-details">
                             <h3 className="project-title">
