@@ -1,3 +1,4 @@
+import CV from "./CV/CV-Jakub Piwtorak.pdf"
 import './App.css'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
                 <a href="#experience">02.<span>Experience</span></a>
                 <a href="#projects">03.<span>Projects</span></a>
                 <a href="#contact">04.<span>Contact</span></a>
-                <a className="anchor-button" target="_blank" href="CV-Jakub Piwtorak.pdf">See my CV</a>
+                <a className="anchor-button" target="_blank" href={ CV }>See my CV</a>
             </div>
         </div>
         <button className="menu-button">
