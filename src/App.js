@@ -5,7 +5,7 @@ import FootballApp from "./images/FootballApp.PNG"
 import ToDoList from "./images/ToDoList.PNG"
 import WeatherApp from "./images/WeatherApp.PNG"
 import Myself from "./images/Myself.jpg"
-import { BrandHtml5, BrandCss3, BrandJavascript, BrandReact, BrandGit, BrandMongodb, Api, BrandNpm, BrandNextjs, BrandGraphql } from 'tabler-icons-react'
+import { BrandHtml5, BrandCss3, BrandJavascript, BrandReact, BrandGit, BrandMongodb, Api, BrandNpm, BrandNextjs, BrandGraphql, BrandGithub, BrandVscode } from 'tabler-icons-react'
 import './App.css'
 
 function App() {
@@ -190,6 +190,34 @@ function App() {
                             <div className="colored-bar"></div>
                             <div className="uncolored-bar"></div>
                             <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandGithub
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandVscode
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
                         </div>
                     </div>
                 </div>
