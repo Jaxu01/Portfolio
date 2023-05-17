@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.40b5dc4e.css",
-    "main.js": "/Portfolio/static/js/main.427ad6bb.js",
+    "main.css": "/Portfolio/static/css/main.4ecde1d6.css",
+    "main.js": "/Portfolio/static/js/main.e096c4b6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/FootballApp.PNG": "/Portfolio/static/media/FootballApp.064f46d7e744ffcff400.PNG",
+    "static/media/ContactForm.PNG": "/Portfolio/static/media/ContactForm.ac6fc2446ddfd55e86a6.PNG",
+    "static/media/WeatherApp.PNG": "/Portfolio/static/media/WeatherApp.7a8ded24c36412ac629c.PNG",
+    "static/media/Myself.jpg": "/Portfolio/static/media/Myself.2247c9c642c2e8246463.jpg",
+    "static/media/CV-Jakub Piwtorak.pdf": "/Portfolio/static/media/CV-Jakub Piwtorak.24c83cc566d78bd1f8cb.pdf",
+    "static/media/ChatApp.PNG": "/Portfolio/static/media/ChatApp.540df837a34e2b8b50c6.PNG",
+    "static/media/ToDoList.PNG": "/Portfolio/static/media/ToDoList.409ee321125ba12995b5.PNG",
     "index.html": "/Portfolio/index.html",
-    "main.40b5dc4e.css.map": "/Portfolio/static/css/main.40b5dc4e.css.map",
-    "main.427ad6bb.js.map": "/Portfolio/static/js/main.427ad6bb.js.map",
+    "main.4ecde1d6.css.map": "/Portfolio/static/css/main.4ecde1d6.css.map",
+    "main.e096c4b6.js.map": "/Portfolio/static/js/main.e096c4b6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.40b5dc4e.css",
-    "static/js/main.427ad6bb.js"
+    "static/css/main.4ecde1d6.css",
+    "static/js/main.e096c4b6.js"
   ]
 }
