@@ -5,6 +5,7 @@ import FootballApp from "./images/FootballApp.PNG"
 import ToDoList from "./images/ToDoList.PNG"
 import WeatherApp from "./images/WeatherApp.PNG"
 import Myself from "./images/Myself.jpg"
+import { BrandHtml5, BrandCss3, BrandJavascript, BrandReact, BrandGit, BrandMongodb, Api, BrandNpm, BrandNextjs, BrandGraphql } from 'tabler-icons-react'
 import './App.css'
 
 function App() {
@@ -46,6 +47,152 @@ function App() {
                     <img alt="Picture of Me" src={Myself} loading="lazy"/>
                 </div>
             </div>
+        </section>
+        <section id="experience" className="experience">
+            <h2 className="headline"><span className="number">02.&nbsp;</span><span className="title-03">Experience</span></h2>
+                <p className="introducing-experience">These are all of the languages and technologies I have worked with so far and the level of my condifency with them.</p>
+                <div className="experience-box">
+                        <div className="language-box">
+                            <BrandHtml5
+                                size={100}
+                                strokeWidth={2}
+                                color={'var(--main)'}
+                            />
+                            <div className="experience-bars">
+                                <div className="colored-bar"></div>
+                                <div className="colored-bar"></div>
+                                <div className="colored-bar"></div>
+                                <div className="colored-bar"></div>
+                                <div className="uncolored-bar"></div>
+                            </div>
+                        </div>
+                    <div className="language-box">
+                        <BrandCss3
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandJavascript
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandReact
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandGit
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandMongodb
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <Api
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandNpm
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandNextjs
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                    <div className="language-box">
+                        <BrandGraphql
+                            size={100}
+                            strokeWidth={2}
+                            color={'var(--main)'}
+                        />
+                        <div className="experience-bars">
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="colored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                            <div className="uncolored-bar"></div>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="projects" className="projects">
             <h2 className="headline"><span className="number">03.&nbsp;</span><span className="title-03">Some Things I've built</span></h2>

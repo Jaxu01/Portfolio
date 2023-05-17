@@ -125,6 +125,62 @@ h3 {
   font-size: 20px;
 }
 
+.experience-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  transition: var(--transition);
+  position: relative;
+  padding: 25px;
+  border-radius: var(--border-radius);
+  background-color: var(--light-navy);
+}
+
+.experience-bars {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.colored-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  height: 20px;
+  background-color: var(--main);
+}
+
+.uncolored-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  height: 20px;
+  background-color: var(--lightest-slate);
+}
+
+.experience {
+  margin-bottom: 100px;
+  color: var(--slate);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introducing-experience {
+  margin-bottom: 50px;
+}
+
 .project-tech-list {
   display: flex;
   flex-wrap: wrap;
