@@ -29,7 +29,7 @@ function App() {
             </div>
         </button>
     </nav>
-    <main>
+    <main className="main">
         <section id="intro">
             <header>
                 <p className="intro">Hello, my name is</p>
@@ -55,7 +55,7 @@ function App() {
                         <div className="language-box">
                             <BrandHtml5
                                 size={100}
-                                strokeWidth={2}
+                                strokeWidth={1}
                                 color={'var(--main)'}
                             />
                             <div className="experience-bars">
@@ -69,7 +69,7 @@ function App() {
                     <div className="language-box">
                         <BrandCss3
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -83,7 +83,7 @@ function App() {
                     <div className="language-box">
                         <BrandJavascript
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -97,7 +97,7 @@ function App() {
                     <div className="language-box">
                         <BrandReact
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -111,7 +111,7 @@ function App() {
                     <div className="language-box">
                         <BrandGit
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -125,27 +125,13 @@ function App() {
                     <div className="language-box">
                         <BrandMongodb
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
                             <div className="uncolored-bar"></div>
-                            <div className="uncolored-bar"></div>
-                            <div className="uncolored-bar"></div>
-                        </div>
-                    </div>
-                    <div className="language-box">
-                        <Api
-                            size={100}
-                            strokeWidth={2}
-                            color={'var(--main)'}
-                        />
-                        <div className="experience-bars">
-                            <div className="colored-bar"></div>
-                            <div className="colored-bar"></div>
-                            <div className="colored-bar"></div>
                             <div className="uncolored-bar"></div>
                             <div className="uncolored-bar"></div>
                         </div>
@@ -153,7 +139,7 @@ function App() {
                     <div className="language-box">
                         <BrandNpm
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -161,27 +147,13 @@ function App() {
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
-                            <div className="uncolored-bar"></div>
-                        </div>
-                    </div>
-                    <div className="language-box">
-                        <BrandNextjs
-                            size={100}
-                            strokeWidth={2}
-                            color={'var(--main)'}
-                        />
-                        <div className="experience-bars">
-                            <div className="colored-bar"></div>
-                            <div className="uncolored-bar"></div>
-                            <div className="uncolored-bar"></div>
-                            <div className="uncolored-bar"></div>
                             <div className="uncolored-bar"></div>
                         </div>
                     </div>
                     <div className="language-box">
                         <BrandGraphql
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -195,7 +167,7 @@ function App() {
                     <div className="language-box">
                         <BrandGithub
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">
@@ -209,7 +181,7 @@ function App() {
                     <div className="language-box">
                         <BrandVscode
                             size={100}
-                            strokeWidth={2}
+                            strokeWidth={1}
                             color={'var(--main)'}
                         />
                         <div className="experience-bars">

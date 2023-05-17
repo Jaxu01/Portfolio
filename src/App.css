@@ -54,9 +54,8 @@ header * {
 }
 
 header {
-  padding: 80px;
   padding-top: 200px;
-  max-width: 960px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -103,10 +102,11 @@ h3 {
 
 .headline {
   width: 100%;
-  margin: 50px;
   font-size: 32px;
   display: flex;
   align-items: center;
+  margin: 0;
+  margin-bottom: 50px;
 }
 
 .description {
@@ -120,50 +120,48 @@ h3 {
 
 .about-me {
   margin: 0px 0px 15px;
-  padding: 0px 0px 0px 40px;
   color: var(--slate);
   font-size: 20px;
 }
 
 .experience-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
 .language-box {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 10px 30px -15px var(--navy-shadow);
   transition: var(--transition);
   position: relative;
-  padding: 25px;
   border-radius: var(--border-radius);
-  background-color: var(--light-navy);
+  gap: 20px;
+  box-sizing: border-box;
 }
 
 .experience-bars {
   display: flex;
   gap: 10px;
-  margin-left: 10px;
 }
 
 .colored-bar {
   display: flex;
   justify-content: space-between;
-  width: 50px;
-  height: 20px;
+  width: 30px;
+  height: 5px;
   background-color: var(--main);
 }
 
 .uncolored-bar {
   display: flex;
   justify-content: space-between;
-  width: 50px;
-  height: 20px;
+  width: 30px;
+  height: 5px;
   background-color: var(--lightest-slate);
 }
 
@@ -178,6 +176,7 @@ h3 {
 }
 
 .introducing-experience {
+  margin: 0;
   margin-bottom: 50px;
 }
 
@@ -422,6 +421,8 @@ h3 .title-03 {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
