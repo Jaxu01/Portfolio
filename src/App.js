@@ -58,6 +58,7 @@ function App() {
                                 strokeWidth={1}
                                 color={'var(--main)'}
                             />
+                            HTML5
                             <div className="experience-bars">
                                 <div className="colored-bar"></div>
                                 <div className="colored-bar"></div>
@@ -72,6 +73,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        CSS3
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -86,6 +88,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        JAVASCRIPT
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -100,6 +103,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        REACTJS
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -114,6 +118,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        GIT
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -128,6 +133,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        MONGODB
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -142,6 +148,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        NODE PACKAGE MANAGER
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -156,6 +163,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        GRAPHQL
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -170,6 +178,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        GITHUB
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
@@ -184,6 +193,7 @@ function App() {
                             strokeWidth={1}
                             color={'var(--main)'}
                         />
+                        VISUAL STUDIO CODE
                         <div className="experience-bars">
                             <div className="colored-bar"></div>
                             <div className="colored-bar"></div>
